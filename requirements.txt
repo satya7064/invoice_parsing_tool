@@ -1,0 +1,17 @@
+
+aspose-words
+cryptography
+easyocr
+farm-haystack
+Flask
+mysql-connector-python
+nltk
+numpy
+pandas
+pdf2image
+Pillow
+pyodbc
+python-dateutil
+regex
+streamlit
+
