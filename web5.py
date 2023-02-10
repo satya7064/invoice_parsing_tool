@@ -7,7 +7,7 @@ import aspose.words as aw
 from PIL import Image
 
 st.set_page_config(layout="wide")
-image = Image.open(r'C:\Users\Satya prasad Mohanty\Downloads\invoice_parsing-master\invoice_parsing_tool\BPAI_logo.png')
+image = Image.open(r'BPAI_logo.png')
 st.image(image)
 st.title("INVOICE PARSING")
 input_file = st.file_uploader(label='UPLOAD PDF FILE HERE:', type=['pdf','doc','docx'])
