@@ -18,7 +18,7 @@ from PIL import ImageDraw
 Reading the Q&A model
 '''
 def extraction(file):
-    new_reader = FARMReader(model_name_or_path=r"my_model_new_63")
+    new_reader = FARMReader(model_name_or_path=r"qa_model_v1_63_inv")
 
     image = convert_from_path(file)
 
