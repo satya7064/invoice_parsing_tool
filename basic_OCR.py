@@ -20,7 +20,7 @@ Reading the Q&A model
 def extraction(file):
     new_reader = FARMReader(model_name_or_path=r"qa_model_v1_63_inv")
 
-    image = convert_from_path(file)
+    image = convert_from_path(file,poppler_path=r"/poppler-23.01.0/Library/bin")
 
     '''
     Creating bounding boxes
